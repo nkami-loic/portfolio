@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/dcee5ef514.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bienvenue sur mon Portfolio</title>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+      <div class="asscrollbar">
+        <div class="asscrollbar__handle"><div></div></div>
+      </div>
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z"
+            />
+          </svg>
+        </div>
+
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+
+        <div class="moon-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+            <div class="intro-text">Bienvenue sur mon portfolio!</div>
+
+            <div class="arrow-wrapper">
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg> -->
+              <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+              </div>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">NKAMI LOIC</h1>
+              <p class="hero-main-description">
+                Etudiant en Data Science && IA | Developpeur Web & Mobile
+              </p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading">En recherche</p>
+              <p class="hero-second-description">D'ALTERNANCE</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Introduction</span>
+              <div class="section-title-decoration style1"></div>
+              <div class="section-title-decoration style2"></div>
+              <div class="section-title-decoration style3"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">A PROPOS DE MOI</h3>
+            <p class="section-text">
+              Actuellement étudiant en 3ème année d'Architecture des Systèmes d'Information à l'École IT d'Orléans,
+              je possède une maîtrise avancée des langages de programmation tels que Java, Python, HTML5 & CSS3, 
+              Javascript, Dart, et PHP. Grâce à mes compétences en frameworks comme Symfony, Node.js, Spring Boot, 
+              Flutter, et Windev, ainsi qu'à mon expérience en développement web avec WordPress, je suis en mesure de 
+              concevoir et de maintenir des solutions numériques performantes et adaptées aux besoins spécifiques des
+               entreprises. Fort d’une expérience professionnelle de deux ans, je suis doté d’une bonne capacité d’adaptation et 
+               d’un excellent sens de l'analyse.
+            </p>
+            <button class="section-button">
+              <a href="/others/cv loic 9.0.pdf" target="_blank">Mon CV →</a>
+            </button>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Mes Projets</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <p class="section-text">
+             
+            </p>
+            <h3 class="section-heading">PoleIT</h3>
+            <p class="section-text">
+             Site web E-commerce Voici les besoins du projet PoleIt détaillés : 
+             ✓ Création d’un site web attractif pour le centre d’astronomie PoleIt : 
+             • Le site doit comprendre une page d’accueil présentant le centre et ses principaux atouts 
+             (Observatoire, planétarium, etc.). • La page d’accueil doit afficher les 4 derniers articles
+              sous forme de carrousel accessibles uniquement aux membres connectés. • Une page décrivant les
+               activités diurnes et nocturnes. • Une page de contage alimentant une base de données avec une 
+               interface d’administration pour traiter les demandes reçues. ✓ Fonctionnalité de commerce en 
+               ligne et interface d’administration : • Une page e-commerce permettant la présentation et 
+               l’achat de goodies via la plateforme Stripe. • Une gestion des stocks et la possibilité de spécifier
+                la quantité d’articles à acheter • Un système d’administration pour visualiser les demandes de contact,
+                 ajouter/modifier des articles, changer le stock disponible, et gérer les comptes utilisateurs. ✓ Infrastructure 
+                 et déploiement : • Mise en place d’une infrastructure kubernetes avec un contrôleur Ingress, une architecture 
+                 hyper convergée pour la haute disponibilité et la maintenabilité. • Le cluster kubernetes doit contenir au moins 
+                 3 nœuds • Les sessions PHP doivent être stockées de manière centralisée, par exemple dans Redis ou MySQL, au lieu
+                  d’une instance Docker PHP locale. ✓ Pratiques DevOps et pipeline CI/CD : • Déploiement automatique du site web 
+                  sur le cluster kubernetes via du pipeline CI/CD. • Le pipeline doit valider le code HTML, utiliser un linter 
+                  pour tous les fichiers, construire une image Docker du code, et déployer automatiquement l’application sur le 
+                  cluster kubernetes lors de la création d’un tag. ✓ Technologies utilisées : • Symfony et Mysql. Pour l’application lié au projet PoleIt, un menu de header efficace et organisé aiderait les utilisateurs à naviguer facilement et à accéder aux diverses sections importantes du site. Voici une proposition pour le menu header basée sur les informations fournies :
+            </p>
+            <button class="section-button">
+              <a
+                href="https://github.com/nkami-loic/PoleIT.git"
+                target="_blank"
+                >Github repo →</a
+              >
+            </button>
+            <h3 class="section-heading">Forum FreakIT</h3>
+            <p class="section-text">
+             
+            </p>
+            <button class="section-button">
+              <a
+                href="https://github.com/nkami-loic/Forum_FreakIT.git"
+                target="_blank"
+                >Github repo →</a
+              >
+            </button>
+            <h3 class="section-heading">Vehicule_Check</h3>
+            <p class="section-text">
+              Surveillance des Positions des Véhicules
+Ce projet met en place un serveur Node.js avec Express pour surveiller et gérer les
+ positions en temps réel des véhicules. Il utilise MongoDB avec Mongoose comme base de données,
+  et intègre Socket.IO pour la communication en temps réel.
+            </p>
+            <button class="section-button">
+              <a
+                href="https://github.com/nkami-loic/vehicule_check.git"
+                target="_blank"
+                >Github repo →</a
+              >
+            </button>
+          </div>
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">MES COMPETENCES</span>
+              <div class="section-title-decoration style1 green-border"></div>
+              <div class="section-title-decoration style2 green-border"></div>
+              <div
+                class="section-title-decoration style3 green-background green-border"
+              ></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">HTML</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">CSS</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">java Script</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">java</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Python</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Flutter</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Dart</h3>
+          </div>
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">PHP</h3>
+          </div>
+        </section>
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Contact Me</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Contactez-moi </h3>
+            <p class="section-text">
+              N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.
+            </p>
+            <ul class="contact-button-wrapper">
+              <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span
+                  ><a href="https://github.com/nkami-loic/" target="_blank"
+                    ><i class="fa-brands fa-github"></i></a
+                ></span>
+              </li>
+              <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/loic-nkami-aa8678232"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                ></span>
+              </li>
+              <li class="icon gmail">
+                <span class="tooltip">Email: nkamiloic237@gmail.com</span>
+                <span
+                  ><a href="nkamiloic237@gmail.com" target="_blank"
+                    ><i class="fa-regular fa-envelope"></i></a
+                ></span>
+              </li>
+            </ul>
+
+        
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
